@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light only" />
+    <meta name="description" content="Bloomstate" />
+    <title>Bloomstate</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css?v=21" />
+  </head>
+  <body>
+    <nav class="lang-switch" aria-label="Language">
+      <button type="button" data-lang="pl" class="active">PL</button>
+      <button type="button" data-lang="en">EN</button>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="home">
+      <div class="hero__image">
+        <img src="assets/images/image05.jpg" alt="" />
+      </div>
+      <div class="hero__content">
+        <div class="logo">
+          <img
+            class="logo__icon"
+            src="assets/images/gallery01/67b05af3.png"
+            alt="Bloomstate"
+          />
+        </div>
+        <h1 class="hero__tagline" data-i18n="hero.tagline"></h1>
+        <div class="hero__text">
+          <p data-i18n="hero.text1"></p>
+          <p data-i18n="hero.text2"></p>
+        </div>
+        <div class="hero__buttons">
+          <a href="#talk" class="btn btn--primary" data-i18n="hero.btnSessions"></a>
+          <a href="#wydarzenia" class="btn btn--secondary" data-i18n="hero.btnEvents"></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services -->
+    <section class="services" id="oferta">
+      <div class="services-tabs">
+        <nav
+          class="services-tabs__nav"
+          role="tablist"
+          aria-label="Oferta"
+          data-i18n-aria="services.ariaLabel"
+        >
+          <button
+            type="button"
+            class="services-tabs__tab is-active"
+            role="tab"
+            id="tab-s1"
+            aria-selected="true"
+            aria-controls="panel-s1"
+            data-index="0"
+            data-i18n="services.s1.title"
+          ></button>
+          <button
+            type="button"
+            class="services-tabs__tab"
+            role="tab"
+            id="tab-s2"
+            aria-selected="false"
+            aria-controls="panel-s2"
+            data-index="1"
+            data-i18n="services.s2.title"
+          ></button>
+          <button
+            type="button"
+            class="services-tabs__tab"
+            role="tab"
+            id="tab-s3"
+            aria-selected="false"
+            aria-controls="panel-s3"
+            data-index="2"
+            data-i18n="services.s3.title"
+          ></button>
+          <button
+            type="button"
+            class="services-tabs__tab"
+            role="tab"
+            id="tab-s4"
+            aria-selected="false"
+            aria-controls="panel-s4"
+            data-index="3"
+            data-i18n="services.s4.title"
+          ></button>
+          <span class="services-tabs__indicator" aria-hidden="true"></span>
+        </nav>
+
+        <div class="services-tabs__panels">
+          <article
+            class="services-tabs__panel is-active"
+            role="tabpanel"
+            id="panel-s1"
+            aria-labelledby="tab-s1"
+            tabindex="0"
+          >
+            <div class="services-tabs__text">
+              <p data-i18n="services.s1.p1"></p>
+              <p data-i18n="services.s1.p2"></p>
+              <p data-i18n="services.s1.p3"></p>
+            </div>
+          </article>
+
+          <article
+            class="services-tabs__panel"
+            role="tabpanel"
+            id="panel-s2"
+            aria-labelledby="tab-s2"
+            tabindex="0"
+            hidden
+          >
+            <div class="services-tabs__text">
+              <p data-i18n="services.s2.text"></p>
+              <ul class="services-tabs__list">
+                <li data-i18n="services.s2.list1"></li>
+                <li data-i18n="services.s2.list2"></li>
+                <li data-i18n="services.s2.list3"></li>
+                <li data-i18n="services.s2.list4"></li>
+                <li data-i18n="services.s2.list5"></li>
+              </ul>
+            </div>
+          </article>
+
+          <article
+            class="services-tabs__panel"
+            role="tabpanel"
+            id="panel-s3"
+            aria-labelledby="tab-s3"
+            tabindex="0"
+            hidden
+          >
+            <div class="services-tabs__text">
+              <p data-i18n="services.s3.text"></p>
+            </div>
+          </article>
+
+          <article
+            class="services-tabs__panel"
+            role="tabpanel"
+            id="panel-s4"
+            aria-labelledby="tab-s4"
+            tabindex="0"
+            hidden
+          >
+            <div class="services-tabs__text">
+              <p data-i18n="services.s4.text"></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events -->
+    <section class="events" id="wydarzenia">
+      <div class="section-inner">
+        <h2 class="events__title" data-i18n="events.title"></h2>
+        <div class="events__embed">
+          <iframe
+            src="https://luma.com/embed/calendar/cal-AJSifH7LFeYlDZ5/events?lt=light"
+            width="600"
+            height="450"
+            frameborder="0"
+            allowfullscreen
+            title="Bloomstate events calendar"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+      <div class="about__header">
+        <div class="about__icons">
+          <a
+            href="https://www.instagram.com/bloomstate_move.breathe.expand/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n-aria="aria.instagram"
+            aria-label="Instagram"
+          >
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M20,7.5c4.7,0,5.3,0,7.2,0.1c1.7,0.1,2.7,0.4,3.3,0.6c0.8,0.3,1.4,0.7,2,1.3c0.6,0.6,1,1.3,1.3,2c0.2,0.6,0.5,1.6,0.6,3.3c0.1,1.9,0.1,2.5,0.1,7.2s0,5.3-0.1,7.2c-0.1,1.7-0.4,2.7-0.6,3.3c-0.3,0.8-0.7,1.4-1.3,2c-0.6,0.6-1.3,1-2,1.3c-0.6,0.2-1.6,0.5-3.3,0.6c-1.9,0.1-2.5,0.1-7.2,0.1s-5.3,0-7.2-0.1c-1.7-0.1-2.7-0.4-3.3-0.6c-0.8-0.3-1.4-0.7-2-1.3c-0.6-0.6-1-1.3-1.3-2c-0.2-0.6-0.5-1.6-0.6-3.3c-0.1-1.9-0.1-2.5-0.1-7.2s0-5.3,0.1-7.2c0.1-1.7,0.4-2.7,0.6-3.3c0.3-0.8,0.7-1.4,1.3-2c0.6-0.6,1.3-1,2-1.3c0.6-0.2,1.6-0.5,3.3-0.6C14.7,7.5,15.3,7.5,20,7.5 M20,5c-4.8,0-5.4,0-7.3,0.1c-1.9,0.1-3.2,0.4-4.3,0.9C7.3,6.5,6.5,7.3,6,8.4c-0.5,1.1-0.8,2.4-0.9,4.3C5,14.6,5,15.2,5,20c0,4.8,0,5.4,0.1,7.3c0.1,1.9,0.4,3.2,0.9,4.3c0.5,1.1,1.3,1.9,2.4,2.4c1.1,0.5,2.4,0.8,4.3,0.9c1.9,0.1,2.5,0.1,7.3,0.1s5.4,0,7.3-0.1c1.9-0.1,3.2-0.4,4.3-0.9c1.1-0.5,1.9-1.3,2.4-2.4c0.5-1.1,0.8-2.4,0.9-4.3c0.1-1.9,0.1-2.5,0.1-7.3s0-5.4-0.1-7.3c-0.1-1.9-0.4-3.2-0.9-4.3c-0.5-1.1-1.3-1.9-2.4-2.4c-1.1-0.5-2.4-0.8-4.3-0.9C25.4,5,24.8,5,20,5"
+              />
+              <path
+                d="M20,12.5c-4.1,0-7.5,3.4-7.5,7.5s3.4,7.5,7.5,7.5s7.5-3.4,7.5-7.5S24.1,12.5,20,12.5 M20,24.2c-2.3,0-4.2-1.9-4.2-4.2s1.9-4.2,4.2-4.2s4.2,1.9,4.2,4.2S22.3,24.2,20,24.2"
+              />
+              <circle cx="27.8" cy="12.2" r="1.8" />
+            </svg>
+          </a>
+          <a
+            href="mailto:contact@bloomstate.eu"
+            data-i18n-aria="aria.email"
+            aria-label="Email"
+          >
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M33.3,10H6.7C5.2,10,4,11.2,4,12.7v14.7C4,28.8,5.2,30,6.7,30h26.7c1.5,0,2.7-1.2,2.7-2.7V12.7C36,11.2,34.8,10,33.3,10z M33.3,13.3L20,22.5L6.7,13.3V12.7l13.3,9.2l13.3-9.2V13.3z"
+              />
+            </svg>
+          </a>
+        </div>
+        <h2 class="about__title" data-i18n="about.title"></h2>
+        <p class="about__subtitle" data-i18n="about.subtitle"></p>
+      </div>
+      <div class="about__body">
+        <div class="about__text">
+          <p data-i18n="about.text"></p>
+        </div>
+        <div class="about__photo">
+          <img src="assets/images/about-collage.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="talk">
+      <div class="contact__image">
+        <img src="assets/images/image04.jpg" alt="" />
+      </div>
+      <div class="contact__form-wrap">
+        <h2 class="contact__title" data-i18n="contact.title"></h2>
+        <form class="contact-form" id="contact-form">
+          <div class="field">
+            <label for="name" data-i18n="contact.name"></label>
+            <input type="text" id="name" name="name" required maxlength="128" />
+          </div>
+          <div class="field">
+            <label for="email" data-i18n="contact.email"></label>
+            <input type="email" id="email" name="email" required maxlength="128" />
+          </div>
+          <div class="field hp-field" aria-hidden="true">
+            <input type="text" name="your-url" tabindex="-1" autocomplete="off" />
+          </div>
+          <div class="field">
+            <label for="message" data-i18n="contact.message"></label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div class="actions">
+            <button type="submit" class="btn-submit">
+              <span data-i18n="contact.send"></span>
+              <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8,20l20-8l-4,8l4,8L8,20z" />
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="js/translations.js?v=3"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
