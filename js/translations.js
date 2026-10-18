@@ -9,7 +9,7 @@ window.TRANSLATIONS = {
       tagline: "Odnajdź kontakt ze swoim ciałem. Zauważ swój oddech.",
       text1:
         "Przestrzeń, w której poprzez jogę, świadomy oddech i uważny ruch możesz lepiej poczuć swoje ciało, zwolnić i odnaleźć własny rytm. Niezależnie od tego, czy szukasz chwili wytchnienia, czy chcesz świadomie uzupełnić swoją aktywność fizyczną.",
-      btnSessions: "Umów sesje",
+      btnSessions: "Umów sesję",
       btnEvents: "Wydarzenia",
     },
     services: {
@@ -35,7 +35,13 @@ window.TRANSLATIONS = {
         p1: "Odkryj, jak świadomy oddech może wspierać Twoje samopoczucie.",
         p2: "Podczas sesji poznasz techniki oddechowe wywodzące się z tradycji jogi. Nauczysz się uważniej obserwować swój oddech i wykorzystywać go jako narzędzie wspierające wyciszenie i koncentrację.",
         p3: "Praca z oddechem może być pomocna zarówno w codziennym życiu, jak i jako element przygotowania do aktywności fizycznej oraz odpoczynku po wysiłku.",
-        p4: "Każda sesja jest dostosowana do Twoich potrzeb i odbywa się w atmosferze uważności, bez presji i pośpiechu.",
+        benefitsTitle: "Jak może wspierać Cię praca z oddechem?",
+        benefit1: "Redukcja odczuwanego stresu i napięcia.",
+        benefit2: "Wsparcie regulacji autonomicznego układu nerwowego.",
+        benefit3:
+          "Wsparcie układu przywspółczulnego, który odgrywa ważną rolę w relaksacji, odpoczynku i regeneracji organizmu.",
+        benefit4: "Lepsza koncentracja i świadomość ciała.",
+        benefit5: "Wyciszenie po intensywnym dniu lub treningu.",
       },
       s4: {
         title: "Zajęcia grupowe: joga, oddech i dźwięk",
@@ -49,7 +55,12 @@ window.TRANSLATIONS = {
         p1: "Zatrzymaj się i pozwól sobie na odpoczynek.",
         p2: "Sesje z wykorzystaniem kryształowych mis dźwiękowych to przestrzeń na wyciszenie, relaksację i uważny kontakt ze sobą.",
         p3: "Pozwól sobie zwolnić, odłożyć codzienne sprawy i zanurzyć się w dźwiękach.",
-        p4: "Sesje są dostępne w formie indywidualnej i grupowej.",
+        benefitsTitle: "Co może dać Ci sesja dźwiękowa?",
+        benefit1: "Relaksacja i zmniejszenie odczuwanego napięcia.",
+        benefit2: "Wyciszenie po intensywnym dniu.",
+        benefit3: "Możliwość poprawy samopoczucia.",
+        benefit4: "Uważność i kontakt ze sobą.",
+        outro: "Sesje są dostępne w formie indywidualnej i grupowej.",
       },
     },
     events: {
@@ -57,11 +68,10 @@ window.TRANSLATIONS = {
     },
     about: {
       title: "O mnie",
-      p1: "Ruch towarzyszy mi od zawsze. Pole dance, treningi siłowe, joga i kolarstwo są dla mnie nie tylko formą aktywności, ale też sposobem na poznawanie siebie i swojego ciała.",
-      p2: "Z wykształcenia jestem socjolożką, zafascynowaną człowiekiem, różnorodnością kultur i wschodnim podejściem do świadomości, które podkreśla znaczenie uważności, samoobserwacji i poznawania siebie.",
-      p3: "Przez ponad 14 lat pracowałam w branży technologicznej. W pewnym momencie poczułam, że potrzebuję zmiany. Doświadczenie wypalenia skłoniło mnie do zatrzymania się i zastanowienia, czego naprawdę potrzebuję. To właśnie wtedy joga stała się ważną częścią mojej drogi. Wyjechałam na Bali, gdzie ukończyłam 200-godzinny kurs nauczycielski jogi oraz 50-godzinne szkolenie z pranajamy.",
-      p4: "Dziś łączę moją pasję do ruchu z jogą, pracą z oddechem i dźwiękiem. Wierzę, że wychodząc poza strefę komfortu, uczymy się nie tylko nowych rzeczy, ale przede wszystkim lepiej poznajemy siebie. Rozwijamy świadomość i odkrywamy własne możliwości.",
-      p5: "Bloomstate to przestrzeń, w której chcę dzielić się tym podejściem. Niezależnie od tego, czy szukasz chwili wytchnienia, czy chcesz uzupełnić swoją aktywność fizyczną o jogę, zapraszam Cię do wspólnej praktyki.",
+      p1: "Ruch towarzyszy mi od zawsze. Pole dance, treningi siłowe, joga i kolarstwo są dla mnie sposobami na poznawanie siebie i swojego ciała.",
+      p2: "Z wykształcenia jestem socjolożką, zafascynowaną człowiekiem, różnorodnością kultur i wschodnim podejściem do świadomości, które podkreśla znaczenie uważności, samoobserwacji i poznawania siebie. Interesuję się również regulacją układu nerwowego i tym, jak możemy lepiej radzić sobie ze stresem.",
+      p3: "Przez ponad 14 lat pracowałam w branży technologicznej. Doświadczenie wypalenia skłoniło mnie do zmiany i poszukiwania nowej drogi. Wyjechałam na Bali, gdzie ukończyłam 200-godzinny kurs nauczycielski jogi oraz 50-godzinne szkolenie z pranajamy.",
+      p4: "Dziś łączę moją pasję do ruchu z jogą, pracą z oddechem i dźwiękiem. Wierzę, że wychodząc poza strefę komfortu, rozwijamy świadomość, odkrywamy własne możliwości i lepiej poznajemy siebie. Bloomstate to przestrzeń, w której dzielę się tym podejściem, wspierając zarówno osoby szukające wyciszenia, jak i te, które chcą uzupełnić swoją aktywność fizyczną o jogę.",
     },
     contact: {
       title: "Zapraszam do kontaktu",
@@ -112,7 +122,13 @@ window.TRANSLATIONS = {
         p1: "Discover how conscious breathing can support your wellbeing.",
         p2: "During our sessions, you'll explore breathing techniques rooted in the yoga tradition. You'll learn to observe your breath more closely and use it as a tool to support relaxation and focus.",
         p3: "Breathwork can be helpful in everyday life, as well as part of preparing for physical activity and winding down after training.",
-        p4: "Each session is tailored to your needs and takes place in a supportive, unhurried environment.",
+        benefitsTitle: "How can breathwork support you?",
+        benefit1: "Reduced feelings of stress and tension.",
+        benefit2: "Support for autonomic nervous system regulation.",
+        benefit3:
+          "Support for the parasympathetic nervous system, which plays an important role in relaxation, rest and recovery.",
+        benefit4: "Improved concentration and body awareness.",
+        benefit5: "A chance to unwind after an intense day or workout.",
       },
       s4: {
         title: "Group Classes: Yoga, Breathwork & Sound",
@@ -126,7 +142,12 @@ window.TRANSLATIONS = {
         p1: "Pause and give yourself permission to rest.",
         p2: "Sessions featuring crystal singing bowls offer space for relaxation, stillness and a deeper connection with yourself.",
         p3: "Slow down, set everyday concerns aside and immerse yourself in sound.",
-        p4: "Available as private or group sessions.",
+        benefitsTitle: "What can a sound session offer?",
+        benefit1: "Relaxation and reduced feelings of tension.",
+        benefit2: "A chance to unwind after an intense day.",
+        benefit3: "Potential support for emotional wellbeing.",
+        benefit4: "Mindfulness and a deeper connection with yourself.",
+        outro: "Available as private or group sessions.",
       },
     },
     events: {
@@ -134,11 +155,10 @@ window.TRANSLATIONS = {
     },
     about: {
       title: "About Me",
-      p1: "Movement has always been a part of my life. Pole dance, strength training, yoga and cycling are more than just physical activities to me. They are ways to explore myself and connect with my body.",
-      p2: "I have a background in sociology and a deep interest in people, cultural diversity and Eastern approaches to consciousness, with their emphasis on mindfulness, self-observation and self-discovery.",
-      p3: "I spent over 14 years working in the tech industry before realising I needed a change. Experiencing burnout made me pause and reflect on what I truly needed. Yoga became an important part of that journey, leading me to Bali, where I completed a 200-hour yoga teacher training followed by a 50-hour pranayama training.",
-      p4: "Today, I bring together my passion for movement, yoga, breathwork and sound. I believe that stepping outside our comfort zones helps us grow in ways that go beyond learning new skills. It allows us to become more self-aware and discover our potential.",
-      p5: "Bloomstate is a space where I share this approach. Whether you're looking for a moment of calm or want to complement your physical training with yoga, you're welcome to join me in practice.",
+      p1: "Movement has always been a part of my life. Pole dance, strength training, yoga and cycling are ways for me to explore myself and connect with my body.",
+      p2: "I have a background in sociology and a deep interest in people, cultural diversity and Eastern approaches to consciousness, with their emphasis on mindfulness, self-observation and self-discovery. I'm also interested in nervous system regulation and how we can better manage stress.",
+      p3: "I spent over 14 years working in the tech industry. Experiencing burnout prompted me to make a change and explore a different path. I travelled to Bali, where I completed a 200-hour yoga teacher training and a 50-hour pranayama course.",
+      p4: "Today, I bring together my passion for movement, yoga, breathwork and sound. I believe that stepping outside our comfort zones helps us develop greater awareness, discover our potential and understand ourselves better. Bloomstate is a space where I share this approach, supporting both those looking for a moment of calm and those who want to complement their physical activity with yoga.",
     },
     contact: {
       title: "Get in touch",

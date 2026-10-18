@@ -365,8 +365,21 @@ h3 {
 }
 
 .services-tabs__text p + p,
-.services-tabs__text ul + p {
+.services-tabs__text ul + p,
+.services-tabs__text h3 + ul {
   margin-top: 0.875rem;
+}
+
+.services-tabs__text p + h3 {
+  margin-top: 1.25rem;
+}
+
+.services-tabs__benefits-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.25rem;
+  line-height: 1.35;
+  font-weight: 500;
+  color: #c77f5d;
 }
 
 .services-tabs__list {
