@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css?v=21" />
+    <link rel="stylesheet" href="css/styles.css?v=23" />
   </head>
   <body>
     <nav class="lang-switch" aria-label="Language">
@@ -34,7 +34,6 @@
         <h1 class="hero__tagline" data-i18n="hero.tagline"></h1>
         <div class="hero__text">
           <p data-i18n="hero.text1"></p>
-          <p data-i18n="hero.text2"></p>
         </div>
         <div class="hero__buttons">
           <a href="#talk" class="btn btn--primary" data-i18n="hero.btnSessions"></a>
@@ -92,6 +91,16 @@
             data-index="3"
             data-i18n="services.s4.title"
           ></button>
+          <button
+            type="button"
+            class="services-tabs__tab"
+            role="tab"
+            id="tab-s5"
+            aria-selected="false"
+            aria-controls="panel-s5"
+            data-index="4"
+            data-i18n="services.s5.title"
+          ></button>
           <span class="services-tabs__indicator" aria-hidden="true"></span>
         </nav>
 
@@ -107,6 +116,8 @@
               <p data-i18n="services.s1.p1"></p>
               <p data-i18n="services.s1.p2"></p>
               <p data-i18n="services.s1.p3"></p>
+              <p data-i18n="services.s1.p4"></p>
+              <p data-i18n="services.s1.p5"></p>
             </div>
           </article>
 
@@ -119,14 +130,11 @@
             hidden
           >
             <div class="services-tabs__text">
-              <p data-i18n="services.s2.text"></p>
-              <ul class="services-tabs__list">
-                <li data-i18n="services.s2.list1"></li>
-                <li data-i18n="services.s2.list2"></li>
-                <li data-i18n="services.s2.list3"></li>
-                <li data-i18n="services.s2.list4"></li>
-                <li data-i18n="services.s2.list5"></li>
-              </ul>
+              <p data-i18n="services.s2.p1"></p>
+              <p data-i18n="services.s2.p2"></p>
+              <p data-i18n="services.s2.p3"></p>
+              <p data-i18n="services.s2.p4"></p>
+              <p data-i18n="services.s2.p5"></p>
             </div>
           </article>
 
@@ -139,7 +147,10 @@
             hidden
           >
             <div class="services-tabs__text">
-              <p data-i18n="services.s3.text"></p>
+              <p data-i18n="services.s3.p1"></p>
+              <p data-i18n="services.s3.p2"></p>
+              <p data-i18n="services.s3.p3"></p>
+              <p data-i18n="services.s3.p4"></p>
             </div>
           </article>
 
@@ -152,7 +163,26 @@
             hidden
           >
             <div class="services-tabs__text">
-              <p data-i18n="services.s4.text"></p>
+              <p data-i18n="services.s4.p1"></p>
+              <p data-i18n="services.s4.p2"></p>
+              <p data-i18n="services.s4.p3"></p>
+              <p data-i18n="services.s4.p4"></p>
+            </div>
+          </article>
+
+          <article
+            class="services-tabs__panel"
+            role="tabpanel"
+            id="panel-s5"
+            aria-labelledby="tab-s5"
+            tabindex="0"
+            hidden
+          >
+            <div class="services-tabs__text">
+              <p data-i18n="services.s5.p1"></p>
+              <p data-i18n="services.s5.p2"></p>
+              <p data-i18n="services.s5.p3"></p>
+              <p data-i18n="services.s5.p4"></p>
             </div>
           </article>
         </div>
@@ -210,11 +240,14 @@
           </a>
         </div>
         <h2 class="about__title" data-i18n="about.title"></h2>
-        <p class="about__subtitle" data-i18n="about.subtitle"></p>
       </div>
       <div class="about__body">
         <div class="about__text">
-          <p data-i18n="about.text"></p>
+          <p data-i18n="about.p1"></p>
+          <p data-i18n="about.p2"></p>
+          <p data-i18n="about.p3"></p>
+          <p data-i18n="about.p4"></p>
+          <p data-i18n="about.p5"></p>
         </div>
         <div class="about__photo">
           <img src="assets/images/about-collage.png" alt="" />
@@ -257,7 +290,7 @@
       </div>
     </section>
 
-    <script src="js/translations.js?v=3"></script>
+    <script src="js/translations.js?v=5"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

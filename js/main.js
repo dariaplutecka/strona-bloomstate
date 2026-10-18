@@ -158,6 +158,7 @@
         moveIndicator(tabs[activeIndex]);
       });
     });
+
   }
 
   setLanguage(currentLang);

@@ -169,7 +169,7 @@ h3 {
   letter-spacing: -0.01em;
   text-transform: none;
   color: #c77f5d;
-  max-width: 26rem;
+  max-width: 32rem;
   margin-bottom: 1.5rem;
 }
 
@@ -536,6 +536,10 @@ h3 {
   font-size: 1.0625rem;
   line-height: 1.9;
   font-weight: 400;
+}
+
+.about__text p + p {
+  margin-top: 0.875rem;
 }
 
 .about__photo {
